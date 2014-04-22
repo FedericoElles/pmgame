@@ -26,8 +26,9 @@
     <!-- Header -->
     <div class="header container">
       <ul class="nav nav-pills pull-right">
-        <li class="active"><a ng-href="#">Home</a></li>
-        <li><a ng-href="#about">About</a></li>
+        <li ng-class="{active:isTab('main')}"><a ng-href="#">Home</a></li>
+        <li ng-class="{active:isTab('about')}"><a ng-href="#about">About</a></li>
+        <li ng-class="{active:isTab('card')}"><a ng-href="#cards">Cards</a></li>        
         <li><a ng-href="#">Contact</a></li>
       </ul>
       <h3 class="text-muted">PM - The Game</h3>
@@ -80,6 +81,7 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/cards.js"></script>
+        <script src="scripts/controllers/cards/type.js"></script>
         <!-- endbuild -->
 </body>
 </html>

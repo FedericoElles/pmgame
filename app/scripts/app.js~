@@ -10,7 +10,6 @@ angular
   .run(function($rootScope, $route) {
     $rootScope.isTab = function (tab ){
       if ($route.current){
-        //TODO Must fix case that activeTab is not defined
         return $route.current.data.activeTab === tab;  
       } else {
         return false;

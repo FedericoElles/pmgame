@@ -1,0 +1,8 @@
+'use strict';
+
+angular.module('pmgameApp', ['ngRoute'])
+  .controller('CardsTypeCtrl', function ($scope, $routeParams) {
+    $scope.ctrl = {
+      type: $routeParams.type
+    };
+  });
