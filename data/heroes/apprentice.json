@@ -1,0 +1,23 @@
+{
+    "id": "apprentice",
+    "type": "card",
+    "active": true,
+    "flagDeleted": false,
+    "cost": 0,
+    "abilities": {
+        "magic": 0,
+        "strength": 1,
+        "defense": 0
+    },
+    "tpl": false,
+    "costArray": [],
+    "category": "HERO",
+    "herotype": "dev",
+    "title": "AE Azubi",
+    "desc": "Gute Azubis sind schwer zu kriegen, kosten aber genauso viel wie schlechte. Fast nix!",
+    "img": "http://www.witzatelier.de/images_cartoons_fremd/azubi.jpg",
+    "dateCreated": "2014-01-02T20:25:10.763Z",
+    "dateUpdated": "2014-01-05T18:35:02.605Z",
+    "amount": 2,
+    "quote": "Also mir gefiehl es besser als es früher noch \"Azubi\" hies..."
+}

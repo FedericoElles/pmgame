@@ -1,0 +1,24 @@
+{
+    "id": "pizzamate",
+    "type": "card",
+    "active": true,     
+    "cost": 0,
+    "amount": 1,
+    "reward": 0,
+    "points": 0,
+    "time": 0,
+    "category": "EVENT",
+    "abilities": {
+        "magic": 0,
+        "strength": 0,
+        "defense": 0
+    },
+    "costArray": [],
+    "title": "Pizza & Mate",
+    "desc": "Kostenlose Mate (stark koffeinhaltiges Getränk) und Pizza werden zusammen oft in der Endphase eines Projekts eingesetzt um das letzte aus den verbleibenden Mitarbeitern rauszuholen.",
+    "quote": "Hackathons: Club Mate, Pizza und Coden, Coden ..",
+    "img": "http://www.pizzeria-carrettino-fellbach.de/img/pizzaservice.png",
+    "dateCreated": "2014-01-04T21:02:06.222Z",
+    "dateUpdated": "2014-01-04T21:07:52.312Z",
+    "ability": "Nimm diese Karte auf die Hand. Du kannst diese Karte jederzeit gegen einen Design, Funktions oder Qualiätspunkt eintauschen."
+}

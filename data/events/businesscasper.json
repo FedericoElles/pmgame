@@ -1,0 +1,25 @@
+{
+    "id": "businesscasper",
+    "type": "card",
+    "active": true,
+    "flagDeleted": false,
+    "cost": 0,
+    "amount": 1,
+    "reward": 0,
+    "points": 0,
+    "time": 0,
+    "category": "EVENT",
+    "abilities": {
+        "magic": 0,
+        "strength": 0,
+        "defense": 0
+    },
+    "tpl": false,
+    "costArray": [],
+    "quote": "\"Nein, ich fliege nach Köln, mache mich dort wichtig, und fliege dann wieder zurück.\" - Bully Herbig.",
+    "title": "Businesskasper",
+    "img": "http://images.vowe.org/images/businesskasper.jpg",
+    "ability": "Das aktuelle Projekt muss eine Runde früher fertig werden.",
+    "dateCreated": "2014-01-12T09:27:18.819Z",
+    "dateUpdated": "2014-01-12T09:38:37.736Z"
+}

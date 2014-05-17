@@ -1,0 +1,26 @@
+{
+    "id": "moonlanding",
+    "type": "card",
+    "active": true,
+    "flagDeleted": false,
+    "cost": 0,
+    "amount": 1,
+    "reward": 20,
+    "points": 5,
+    "category": "QUEST",
+    "abilities": {
+        "magic": 2,
+        "strength": 16,
+        "defense": 18
+    },
+    "tpl": false,
+    "costArray": [],
+    "title": "Mondlandung",
+    "name": "",
+    "img": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Surveyor_3-Apollo_12.jpg/548px-Surveyor_3-Apollo_12.jpg",
+    "desc": "Apollo 11 war eine Raumfahrtmission im Rahmen des Apollo-Programms der US-amerikanischen Raumfahrtbehörde NASA und der erste bemannte Flug zum Mond, der eine Landung und eine sichere Rückkehr.",
+    "quote": "„Houston, hier ist der Stützpunkt Tranquility Base. Der Adler ist gelandet!“\n– Neil Armstrong",
+    "dateCreated": "2014-01-04T20:24:35.466Z",
+    "dateUpdated": "2014-01-04T20:57:47.718Z",
+    "time": 5
+}

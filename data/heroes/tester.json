@@ -1,0 +1,25 @@
+{
+    "id": "tester",
+    "type": "card",
+    "active": true,
+    "flagDeleted": false,
+    "cost": 1,
+    "amount": 10,
+    "abilities": {
+        "magic": 0,
+        "strength": 0,
+        "defense": 1
+    },
+    "tpl": false,
+    "costArray": [
+        null
+    ],
+    "category": "HERO",
+    "herotype": "qa",
+    "title": "Tester",
+    "img": "http://www.esti.ca/sites/default/files/article_images/QA_image4.jpeg",
+    "quote": "Qualität ist... wenn der Kunde zurückkommt und nicht das Produkt.",
+    "desc": "Die Qualitätssicherung testet alle Produkte, bevor diese dem Kunden übergeben werden.",
+    "dateCreated": "2014-01-02T20:54:24.293Z",
+    "dateUpdated": "2014-01-02T21:00:49.041Z"
+}

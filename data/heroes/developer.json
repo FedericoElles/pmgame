@@ -1,0 +1,27 @@
+{
+    "id": "developer",
+    "type": "card",
+    "active": true,
+    "flagDeleted": false,
+    "cost": 1,
+    "amount": 5,
+    "reward": 0,
+    "points": 0,
+    "time": 0,
+    "category": "HERO",
+    "abilities": {
+        "magic": 0,
+        "strength": 1,
+        "defense": 0
+    },
+    "tpl": false,
+    "costArray": [
+        null
+    ],
+    "herotype": "dev",
+    "title": "Entwickler",
+    "img": "https://www.paygate.co.za/img/feature-pic-developer.png",
+    "desc": "Entwickler programmieren Funktionalität in einer Software.",
+    "dateCreated": "2014-01-09T19:12:56.041Z",
+    "dateUpdated": "2014-01-09T19:20:49.643Z"
+}

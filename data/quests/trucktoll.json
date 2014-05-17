@@ -1,0 +1,25 @@
+{
+    "id": "trucktoll",
+    "type": "card",
+    "active": true,
+    "flagDeleted": false,
+    "cost": 0,
+    "amount": 1,
+    "reward": 12,
+    "points": 3,
+    "time": 3,
+    "category": "QUEST",
+    "abilities": {
+        "magic": 2,
+        "strength": 10,
+        "defense": 10
+    },
+    "tpl": false,
+    "costArray": [],
+    "title": "LKW-Maut",
+    "desc": "Die LKW-Maut in Deutschland ist eine streckenbezogene Straßenbenutzungsgebühr für schwere Nutzfahrzeuge im Straßenverkehr.",
+    "img": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mautbr%C3%BCcke01_2009-04-13.jpg/800px-Mautbr%C3%BCcke01_2009-04-13.jpg",
+    "quote": "Wie kommen Sie darauf, dass in unserer Bundesbehörde Leute aus der Wirtschaft arbeiten?",
+    "dateCreated": "2014-01-07T20:00:37.263Z",
+    "dateUpdated": "2014-01-07T20:08:36.116Z"
+}
