@@ -1,0 +1,160 @@
+/**********************************************************
+ *
+ * Welcome to FritzWebPutty OSS!
+ *
+ * Your CSS (or SCSS) goes here, in the editor pane.
+ * If you have existing CSS on your site, just copy
+ * and paste it here to get started. Enjoy!
+ *
+ *********************************************************/
+
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  border:5px solid black;
+  border-radius: 10px;
+  padding:0px 0px 0px 0px;
+  width:330px;
+  height:500px;
+  position:relative;
+}
+
+.card.dev{
+  border-color:#3a87ad; /*blue*/
+}
+
+.card.design{
+  border-color:#b94a48; /*red*/
+}
+
+.card.qa{
+  border-color:#468847; /*green*/
+}
+
+.card.EVENT{
+   border-color:#c09853;
+}
+
+.text-reward{
+  color: #f89406 !important;
+}
+
+.card card-title{
+  display:block;
+  padding:0px 10px 0px 10px;
+  line-height:40px;
+  height:40px;
+  font-size:20px;
+  background-color:white;
+  color:+EEE;
+}
+
+.card card-title .badge{
+  margin-top:8px;
+  line-height:20px;
+  height:20px;
+  font-size:20px;
+}
+
+.card card-title .points{
+  float:right;
+  color:#DD0000;
+}
+
+.card card-title .reward{
+  float:right;
+  margin-right:10px;
+  color: #f89406;
+}
+
+
+.card .coin {
+  color:#f89406;
+  display:inline-block;
+  width:17px;
+  margin-top:7px;
+  margin-left:5px;
+  height:22px;
+  line-height:22px;
+  padding:0px 0px 0px 5px;
+  border:2px solid #f89406;
+  border-radius: 12px;
+  background-color:#f89406;
+  color:white;
+}
+
+.card card-img{
+  display:block;
+  width:322px;
+  height:200px;
+  background-size:cover;
+  border-left:0px solid white;
+  border-right:0px solid white;
+}
+
+
+.card.EVENT card-abilities{
+  display:none;
+}
+
+.card card-abilities{
+  display:block;
+  width:330px;
+  height:60px;
+}
+
+.card card-abilities .ability{
+  display:block;
+  line-height:60px;
+  height:60px;
+  font-size:25px;
+  text-align:center;
+  display:inline-block;
+  width:106px;
+}
+
+.card.QUEST card-abilities{
+  padding-left:7px;
+}
+
+.card.QUEST card-abilities .ability{
+  width:62px;
+  font-size:23px;
+}
+
+.card card-abilities .ability.disabled{
+  opacity:0.4;
+}
+
+
+.card card-abilities .ability span{
+  display:inline-block;
+  width:30px;
+  
+}
+
+.card card-desc {
+  display:block;
+  padding:10px 10px 0px 10px; 
+  min-height:160px;
+  background-color:#fAfAfA;
+  
+}
+
+.card card-desc blockquote{
+ font-style:italic;
+
+}
+
+.card card-footer{
+  position:absolute;
+  display:block;
+  width:100%;
+  bottom:0px;
+  font-size:80%;
+  color:grey;
+}
+
