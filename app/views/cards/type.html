@@ -1,1 +1,10 @@
-<p>Cards of type <span ng-bind="ctrl.type"></span></p>
+<h3>Cards of type <span ng-bind="ctrl.type"></span></h3>
+
+
+<div class="alert alert-info" role="alert" 
+     ng-show="ctrl.cards.length==0">No cards found</div>
+
+<div class="div-card" ng-repeat="card in ctrl.cards>
+	<card card-data="card.doc" class="ng-isolate-scope ng-scope">
+	</card>
+</div>
