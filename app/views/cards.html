@@ -1,13 +1,7 @@
 <p>This is the cards view.</p>
 
 <ul>
-  <li>
-    <a href="#/cards/heroes">Heroes</a>
-  </li>
-  <li>
-    <a href="#/cards/quests">Quests</a>
-  </li>
-  <li>
-    <a href="#/cards/events">Events</a>
-  </li>
+  <li ng-repeat="type in types track by $index">
+    <a ng-href="#/cards/{{type}}" ng-bind="type"></a>
+  </li>  
 </ul>
