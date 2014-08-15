@@ -9,6 +9,7 @@ angular.module('pmgameApp')
     
     $http.get('http://localhost:8080/data/'+$routeParams.type).
     success(function(data, status, headers, config) {
+      $scope.ctrl.cards = data;
       // this callback will be called asynchronously
       // when the response is available
     }).
