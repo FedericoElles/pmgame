@@ -26,7 +26,7 @@ angular.module('pmgameApp')
             "	<card-title>\n" +
             "		<span ng-bind=\"card.title\"></span>\n" +
             "		<small ng-bind=\"card.name\"></small>\n" +
-            "		<span ng-repeat=\"i in card.costArray\" class=\"coin text-warning pull-right\">\n" +
+            "		<span ng-repeat=\"i in card.costArray track by $index\" class=\"coin text-warning pull-right\">\n" +
             "			<i class=\"icon-euro\" ></i>\n" +
             "		</span>\n" +
             "		\n" +
