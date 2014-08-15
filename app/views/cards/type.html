@@ -2,9 +2,9 @@
 
 
 <div class="alert alert-info" role="alert" 
-     ng-show="ctrl.cards.length==0">No cards found</div>
+     ng-show="ctrl.cards.length==0">No cards found..... yet</div>
 
-<div class="div-card" ng-repeat="card in ctrl.cards>
-	<card card-data="card.doc" class="ng-isolate-scope ng-scope">
-	</card>
+<div class="div-card" ng-repeat="card in ctrl.cards track by $index">
+	<card card-data="card"></card>
+	<a ng-href="#/cards/{{ctrl.type}}/edit/{{card.id}}">Edit</a>
 </div>

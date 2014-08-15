@@ -1,15 +1,16 @@
 'use strict';
 
 angular.module('pmgameApp')
-  .controller('CardsTypeCtrl', function ($scope, $routeParams, $http) {
+  .controller('CardEditCtrl', function ($scope, $routeParams, $http) {
     $scope.ctrl = {
       type: $routeParams.type,
-      cards:[]
+      cardId: $routeParams.id,
+      card:undefined
     };
     
-    $http.get('http://localhost:8080/data/'+$routeParams.type).
+    $http.get('http://localhost:8080/data/'+$routeParams.type+'/'+$routeParams.id).
     success(function(data, status, headers, config) {
-      $scope.ctrl.cards = data;
+      $scope.ctrl.card = data;
       // this callback will be called asynchronously
       // when the response is available
     }).
