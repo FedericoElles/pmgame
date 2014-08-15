@@ -47,6 +47,13 @@ angular
           activeTab:'card'
         }
       })
+      .when('/cards/:type/edit/:id', {
+        templateUrl: 'views/edit/edit.html',
+        controller: 'CardEditCtrl',
+        data:{
+          activeTab:'card'
+        }
+      })      
       .otherwise({
         redirectTo: '/'
       });
