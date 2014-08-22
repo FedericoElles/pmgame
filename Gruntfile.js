@@ -32,7 +32,8 @@ module.exports = function (grunt) {
         tasks: ['bowerInstall']
       },
       js: {
-        files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
+        files: ['<%= yeoman.app %>/scripts/{,*/}{,*/}*.js',
+                '<%= yeoman.app %>/bower_components/angular-lazy-form/*.js'],
         tasks: ['newer:jshint:all'],
         options: {
           livereload: true
