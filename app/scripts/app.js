@@ -5,7 +5,8 @@ angular
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'angularLazyForm'
   ])
   .run(function($rootScope, $route) {
     $rootScope.isTab = function (tab ){

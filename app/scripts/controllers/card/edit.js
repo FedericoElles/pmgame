@@ -5,7 +5,11 @@ angular.module('pmgameApp')
     $scope.ctrl = {
       type: $routeParams.type,
       cardId: $routeParams.id,
-      card:undefined
+      card:undefined,
+      formHelper:{},
+      saveForm:function(formFields){
+        console.log('Save form callback', formFields);
+      }
     };
     
     $http.get('http://localhost:8080/data/'+$routeParams.type+'/'+$routeParams.id).
