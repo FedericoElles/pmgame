@@ -2,11 +2,6 @@
     "title": "Pizza & Mate",
     "amount": 1,
     "cost": 0,    
-    "abilities": {
-        "magic": 0,
-        "strength": 0,
-        "defense": 0
-    },
     "textDesc": "Kostenlose Mate (stark koffeinhaltiges Getränk) und Pizza werden zusammen oft in der Endphase eines Projekts eingesetzt um das letzte aus den verbleibenden Mitarbeitern rauszuholen.",
     "textQuote": "Hackathons: Club Mate, Pizza und Coden, Coden ..",
     "urlImg": "http://www.pizzeria-carrettino-fellbach.de/img/pizzaservice.png",

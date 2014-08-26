@@ -9,7 +9,12 @@ angular.module('pmgameApp')
     
     $http.get('http://localhost:8080/data/'+$routeParams.type).
     success(function(data, status, headers, config) {
-      $scope.ctrl.cards = data;
+      data.forEach(function(rec){
+        if (rec._id.indexOf('_new.json') < 0){
+          $scope.ctrl.cards.push(rec);
+        }
+      });
+      
       // this callback will be called asynchronously
       // when the response is available
     }).

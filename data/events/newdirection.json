@@ -2,11 +2,6 @@
     "title": "Neuausrichtung",
     "amount": 1,
     "cost": 0,
-    "abilities": {
-        "magic": 0,
-        "strength": 0,
-        "defense": 0
-    },
     "textDesc": "Das aktuelle Projekt wird sofort beendet. Du erhälst keine Projektpunkte.",
     "textQuote": "Manager führen sich auf wie Katzen im Katzenklo. Sie werfen instinktiv alles durcheinander, um zu verbergen, was sie angestellt haben.\n- Scott Adams, amerik. Cartoonist (\"Dilbert\")",
     "urlImg": "http://blog.newsystemsthinking.com/wp-content/uploads/Reorganization.jpg",

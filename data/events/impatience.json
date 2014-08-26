@@ -2,11 +2,6 @@
     "title": "Ungeduld",
     "amount": 2,
     "cost": 0,
-    "abilities": {
-        "magic": 0,
-        "strength": 0,
-        "defense": 0
-    },
     "textDesc":"",    
     "textQuote": "Den Ungeduldigen gibt das Leben die nachdrücklichsten Lektionen. - Deutsches Sprichwort",    
     "urlImg": "http://www.br.de/radio/bayern1/inhalt/experten-tipps/ungeduld-mann-sanduhr-computer-100~_v-image512_-6a0b0d9618fb94fd9ee05a84a1099a13ec9d3321.jpg%3Fversion%3Da8d6a",

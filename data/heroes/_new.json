@@ -1,0 +1,16 @@
+{
+    "title": "",
+    "name": "",
+    "amount": 10,
+    "cost": 1,
+    "abilities": {
+        "magic": 0,
+        "strength": 0,
+        "defense": 0
+    },
+    "selectHeroType": "qa",
+    "urlImg": "",
+    "textDesc": "",
+    "textQuote": "",
+    "textAbility": ""
+}

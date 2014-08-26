@@ -2,11 +2,6 @@
     "title": "",
     "amount": 1,
     "cost": 0,
-    "abilities": {
-        "magic": 0,
-        "strength": 0,
-        "defense": 0
-    },
     "textDesc":"",
     "textQuote": "",
     "urlImg": "",

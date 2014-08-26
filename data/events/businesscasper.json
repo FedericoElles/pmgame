@@ -2,11 +2,6 @@
     "title": "Businesskasper",
     "amount": 1,
     "cost": 0,
-    "abilities": {
-        "magic": 0,
-        "strength": 0,
-        "defense": 0
-    },
     "textDesc":"",      
     "textQuote": "\"Nein, ich fliege nach Köln, mache mich dort wichtig, und fliege dann wieder zurück.\" - Bully Herbig.",
     "urlImg": "http://images.vowe.org/images/businesskasper.jpg",
