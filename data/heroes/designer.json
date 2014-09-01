@@ -1,25 +1,16 @@
 {
-    "id": "designer",
-    "type": "card",
-    "active": true,
-    "flagDeleted": false,
-    "category": "HERO",
     "title": "Designer",
-    "desc": "Egal was die Entwickler programmieren, ohne Designer sieht es nur halb so gut aus.",
-    "quote": "\"Juhuu, es funktioniert endlich im IE\"",
-    "dateCreated": "2013-12-29T16:22:22.506Z",
-    "dateUpdated": "2014-01-02T20:51:04.361Z",
+    "name": "",
+    "amount": 10,
+    "cost": 1,
     "abilities": {
         "magic": 1,
         "strength": 0,
         "defense": 0
     },
-    "cost": 1,
-    "img": "http://www.munca-la-domiciliu.com/wp-content/uploads/2013/03/webdesigner.gif",
-    "herotype": "design",
-    "name": "",
-    "costArray": [
-        null
-    ],
-    "amount": 10
+    "selectHeroType": "design",
+    "urlImg": "http://www.munca-la-domiciliu.com/wp-content/uploads/2013/03/webdesigner.gif",
+    "textDesc": "Egal was die Entwickler programmieren, ohne Designer sieht es nur halb so gut aus.",
+    "textQuote": "\"Juhuu, es funktioniert endlich im IE\"",
+    "textAbility": ""
 }

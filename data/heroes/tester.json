@@ -1,5 +1,6 @@
 {
     "title": "Tester",
+    "name": "",    
     "amount": 10,
     "cost": 1,
     "abilities": {
