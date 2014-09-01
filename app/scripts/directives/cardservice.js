@@ -40,7 +40,7 @@ angular.module('pmgameApp')
             "	</card-title>\n" +
             "	\n" +
             "	<card-img style=\"background-image:url({{card.urlImg}})\" class=\"img-polaroid\"></card-img>\n" +
-            "	<card-subtitle ng-bind=\"lov.types[card.selectHeroType]\"></card-subtitle>\n" +
+            //"	<card-subtitle ng-bind=\"lov.types[card.selectHeroType]\"></card-subtitle>\n" +
             "	\n" +
             "	<card-abilities ng-if=\"card.abilities\">\n" +
             "		<div class=\"ability text-error\"   ng-class=\"{disabled:card.abilities.magic==0}\">\n" +
@@ -74,15 +74,18 @@ angular.module('pmgameApp')
             "</pre>\n" +
             "-->",
             link: function (scope, element, attrs, ngModel) {
-                scope.$watch(function(){return scope.card}, function(newval){
-                    console.log('newCard', scope.id);
-                    var idParts = scope.id.replace('data/','').split('/');
-                    scope.ctrl.category = idParts[0];
-                    scope.ctrl.id = idParts[1].replace('.json','');
-                    for (var i = 0, ii=scope.card.cost;i<ii;i+=1){
-                        scope.ctrl.costArray.push('X');
+                scope.$watch(function(){return scope.card}, function(newval, oldval){
+                    console.log('newCard', newval, oldval);
+                    if (newval){
+                        var idParts = scope.id.replace('data/','').split('/');
+                        scope.ctrl.category = idParts[0];
+                        scope.ctrl.costArray = [];
+                        scope.ctrl.id = idParts[1].replace('.json','');
+                        for (var i = 0, ii=scope.card.cost;i<ii;i+=1){
+                            scope.ctrl.costArray.push('X');
+                        }
                     }
-                }, true);
+                }, true);                
             }
         };
     });

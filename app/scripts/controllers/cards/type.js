@@ -9,8 +9,12 @@ angular.module('pmgameApp')
     
     $http.get('http://localhost:8080/data/'+$routeParams.type).
     success(function(data, status, headers, config) {
+      var path;
       data.forEach(function(rec){
         if (rec._id.indexOf('_new.json') < 0){
+          path = rec._id.split('/');
+          rec.type = path[1];
+          rec.id = path[2].replace('.json','');
           $scope.ctrl.cards.push(rec);
         }
       });

@@ -6,5 +6,5 @@
 
 <div class="div-card" ng-repeat="card in ctrl.cards track by $index">
 	<card id="card._id" card-data="card.doc"></card>
-	<a ng-href="#/cards/{{ctrl.type}}/edit/{{card.doc.id}}">Edit</a>
+	<a ng-href="#/cards/{{ctrl.type}}/edit/{{card.id}}">Edit</a>
 </div>
