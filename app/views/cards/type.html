@@ -1,5 +1,8 @@
 <h3>Cards of type <span ng-bind="ctrl.type"></span></h3>
 
+<a ng-href="#/cards/{{ctrl.type}}/edit/_new" class="btn btn-success">New Card</a>
+
+<hr>
 
 <div class="alert alert-info" role="alert" 
      ng-show="ctrl.cards.length==0">No cards found..... yet</div>
