@@ -146,10 +146,11 @@ body {
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024) {
     .container {
-        max-width: 730px;
+        max-width: 970px;
     }
+    
 
     /* Remove the padding we set earlier */
     .header,
@@ -166,4 +167,21 @@ body {
     .jumbotron {
         border-bottom: 0;
     }
+}
+
+
+/* New styles*/
+
+.div-cards {
+}
+
+.div-card {
+    margin-bottom: 20px;
+    max-width: 340px;
+    float: left;
+    margin-right: 50px;    
+}
+
+h3 span {
+    text-transform: capitalize;
 }

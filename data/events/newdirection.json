@@ -1,23 +1,9 @@
 {
-    "id": "newdirection",
-    "type": "card",
-    "active": true,
-    "cost": 0,
-    "amount": 1,
-    "reward": 0,
-    "points": 0,
-    "category": "EVENT",
-    "abilities": {
-        "magic": 0,
-        "strength": 0,
-        "defense": 0
-    },
-    "tpl": false,
-    "costArray": [],
     "title": "Neuausrichtung",
-    "desc": "Das aktuelle Projekt wird sofort beendet. Du erhälst keine Projektpunkte.",
-    "quote": "Manager führen sich auf wie Katzen im Katzenklo. Sie werfen instinktiv alles durcheinander, um zu verbergen, was sie angestellt haben.\n- Scott Adams, amerik. Cartoonist (\"Dilbert\")",
-    "img": "http://blog.newsystemsthinking.com/wp-content/uploads/Reorganization.jpg",
-    "dateCreated": "2014-01-04T20:03:44.666Z",
-    "dateUpdated": "2014-01-04T20:18:49.539Z"
+    "amount": 1,
+    "cost": 0,
+    "textDesc": "Das aktuelle Projekt wird sofort beendet. Du erhälst keine Projektpunkte.",
+    "textQuote": "Manager führen sich auf wie Katzen im Katzenklo. Sie werfen instinktiv alles durcheinander, um zu verbergen, was sie angestellt haben.\n- Scott Adams, amerik. Cartoonist (\"Dilbert\")",
+    "urlImg": "http://blog.newsystemsthinking.com/wp-content/uploads/Reorganization.jpg",
+    "textAbility": ""
 }

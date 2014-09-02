@@ -1,28 +1,16 @@
 {
-    "id": "multitalent",
-    "type": "card",
-    "active": true,
-    "cost": 2,
+    "title": "Multitalent",
+    "name": "Alex",    
     "amount": 1,
-    "reward": 0,
-    "points": 0,
-    "time": 0,
-    "category": "HERO",
+    "cost": 2,    
     "abilities": {
         "magic": 1,
         "strength": 1,
         "defense": 0
     },
-    "tpl": false,
-    "costArray": [
-        null,
-        null
-    ],
-    "herotype": "dev",
-    "title": "Multitalent",
-    "name": "Alex",
-    "desc": "Ein Multitalent ist in der Lage mehrere Attribute zu einem Projekt beizusteuern",
-    "img": "http://i.stack.imgur.com/sW6Xm.jpg?s=128&g=1",
-    "dateCreated": "2014-01-17T13:07:15.022Z",
-    "dateUpdated": "2014-01-17T13:08:52.734Z"
+    "selectHeroType": "dev",
+    "urlImg": "http://i.stack.imgur.com/sW6Xm.jpg?s=128&g=1",
+    "textDesc": "Ein Multitalent ist in der Lage mehrere Attribute zu einem Projekt beizusteuern",
+    "textQuote": "",
+    "textAbility": ""
 }

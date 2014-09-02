@@ -1,10 +1,23 @@
-<h3>Cards of type <span ng-bind="ctrl.type"></span></h3>
+<h3>
+  <a href="/#/cards">Cards</a>
+  <i class="icon-chevron-right"></i>
+  <span ng-bind="ctrl.type"></span>
+  <a ng-href="#/cards/{{ctrl.type}}/edit/_new" class="btn btn-success pull-right">New Card</a>
 
+</h3>
+
+
+<hr>
 
 <div class="alert alert-info" role="alert" 
      ng-show="ctrl.cards.length==0">No cards found..... yet</div>
 
-<div class="div-card" ng-repeat="card in ctrl.cards track by $index">
-	<card card-data="card.doc"></card>
-	<a ng-href="#/cards/{{ctrl.type}}/edit/{{card.doc.id}}">Edit</a>
+<div class="div-cards">
+  <div class="div-card" ng-repeat="card in ctrl.cards track by $index">
+  	<card id="card._id" card-data="card.doc"></card>
+    <p class="text-center">
+      <br>
+  	 <a class="btn btn-info" ng-href="#/cards/{{ctrl.type}}/edit/{{card.id}}">Edit Card</a>
+    </p>
+  </div>
 </div>

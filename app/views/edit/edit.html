@@ -1,9 +1,28 @@
 <h3>
-	Editing card <span ng-bind="ctrl.cardId"></span>
-	of type 
-	<span ng-bind="ctrl.type"></span>
-
+  <a href="/#/cards">Cards</a>
+  <i class="icon-chevron-right"></i>
+  <a ng-href="/#/cards/{{ctrl.type}}"><span ng-bind="ctrl.type"></span></a>
+  <i class="icon-chevron-right"></i>
+  <span ng-bind="ctrl.cardId"></span>
 </h3>
 
+<hr>
 
-<card card-data="ctrl.card.doc"></card>
+<div class="row">
+  <div class="col-md-6">
+    <h2>Editor</h2>
+    <lazy-form form-data="ctrl.card.doc" 
+               form-helper="ctrl.formHelper"
+               id="ctrl.card._id"
+               live-data="ctrl.cardLive"
+               on-save="ctrl.saveForm(id, doc)">
+    </lazy-form>
+  </div>
+
+
+  <div class="col-md-6">
+    <h2>Preview</h2>
+    <card card-data="ctrl.cardLive" id="ctrl.card._id"></card>
+  </div>
+
+</div>
