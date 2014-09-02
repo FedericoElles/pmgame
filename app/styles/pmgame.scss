@@ -23,7 +23,7 @@ border-color:#b94a48;
 border-color:#468847;
 }
 
-.card.EVENT {
+.card.events {
 border-color:#c09853;
 }
 
@@ -82,7 +82,7 @@ border-left:0 solid #fff;
 border-right:0 solid #fff;
 }
 
-.card.EVENT card-abilities {
+.card.events card-abilities {
 display:none;
 }
 
@@ -101,12 +101,12 @@ display:inline-block;
 width:106px;
 }
 
-.card.QUEST card-abilities {
+.card.quests card-abilities {
 padding-left:7px;
 }
 
-.card.QUEST card-abilities .ability {
-width:62px;
+.card.quests card-abilities .ability {
+width:61px;
 font-size:23px;
 }
 
