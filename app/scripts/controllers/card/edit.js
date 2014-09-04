@@ -7,7 +7,9 @@ angular.module('pmgameApp')
       cardId: $routeParams.id,
       card:undefined,
       cardLive:undefined,
-      formHelper:{},
+      formHelper:{
+        selectHeroType:['dev','qa','design']  
+      },
       saveForm:function(id, doc){
         console.log('Save form callback', id, doc);
         if (id.indexOf('.json') > 0){
