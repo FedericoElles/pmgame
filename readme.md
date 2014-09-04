@@ -17,7 +17,7 @@
     
 ## Launch GUI
 
-   grunt serve
+    grunt serve
    
    
 Edit cards using the GUI. Once done, create a pull request to this repo to publish your creativity.
