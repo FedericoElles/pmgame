@@ -1,18 +1,1 @@
-{
-    "title": "Mondlandung",
-    "name": "",
-    "amount": 1,
-    "cost": 0,
-    "reward": 20,
-    "points": 5,
-    "time": 6,    
-    "abilities": {
-        "magic": 2,
-        "strength": 16,
-        "defense": 18
-    },
-    "textDesc": "Apollo 11 war eine Raumfahrtmission im Rahmen des Apollo-Programms der US-amerikanischen Raumfahrtbehörde NASA und der erste bemannte Flug zum Mond, der eine Landung und eine sichere Rückkehr.",
-    "textQuote": "„Houston, hier ist der Stützpunkt Tranquility Base. Der Adler ist gelandet!“\n– Neil Armstrong",
-    "urlImg": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Surveyor_3-Apollo_12.jpg/548px-Surveyor_3-Apollo_12.jpg",
-    "textAbility": ""
-}
+{"title":"Mondlandung","name":"","amount":1,"cost":0,"reward":20,"points":5,"time":6,"abilities":{"magic":2,"strength":16,"defense":18},"textDesc":"Apollo 11 war eine Raumfahrtmission im Rahmen des Apollo-Programms der US-amerikanischen Raumfahrtbehörde NASA und der erste bemannte Flug zum Mond.","textQuote":"„Houston, hier ist der Stützpunkt Tranquility Base. Der Adler ist gelandet!“\n– Neil Armstrong","urlImg":"http://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Surveyor_3-Apollo_12.jpg/548px-Surveyor_3-Apollo_12.jpg","textAbility":""}
