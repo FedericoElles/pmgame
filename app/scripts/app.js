@@ -55,6 +55,13 @@ angular
           activeTab:'card'
         }
       })      
+      .when('/cards/:type/print/:id', {
+        templateUrl: 'views/print/print.html',
+        controller: 'CardPrintCtrl',
+        data:{
+          activeTab:'card'
+        }
+      })        
       .otherwise({
         redirectTo: '/'
       });

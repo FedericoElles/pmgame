@@ -1,0 +1,13 @@
+<h3>
+  <a href="/#/cards">Cards</a>
+  <i class="icon-chevron-right"></i>
+  <a ng-href="/#/cards/{{ctrl.type}}"><span ng-bind="ctrl.type"></span></a>
+  <i class="icon-chevron-right"></i>
+  <span ng-bind="ctrl.cardId"></span>
+</h3>
+
+<hr>
+
+<card card-data="ctrl.card.doc" id="ctrl.card._id"></card>
+
+</div>
