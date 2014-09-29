@@ -1,4 +1,5 @@
 node_modules
+print
 dist
 .tmp
 .sass-cache
