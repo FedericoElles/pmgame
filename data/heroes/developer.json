@@ -1,16 +1,1 @@
-{
-    "title": "Entwickler",
-    "name": "",  
-    "amount": 5,
-    "cost": 1,
-    "abilities": {
-        "magic": 0,
-        "strength": 1,
-        "defense": 0
-    },
-    "selectHeroType": "dev",
-    "urlImg": "https://www.paygate.co.za/img/feature-pic-developer.png",
-    "textDesc": "Entwickler programmieren Funktionalität in einer Software.",
-    "textQuote": "",
-    "textAbility": ""
-}
+{"title":"Entwickler","name":"","amount":5,"cost":1,"abilities":{"magic":0,"strength":1,"defense":0},"selectHeroType":"dev","urlImg":"https://www.paygate.co.za/img/feature-pic-developer.png","textDesc":"Entwickler programmieren Funktionalität in einer Software.","textQuote":"Hello World.","textAbility":""}
